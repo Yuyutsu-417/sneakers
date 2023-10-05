@@ -1,0 +1,187 @@
+@media (max-width: 992px) {
+    .label {
+        display: block;
+        z-index: 3;
+        margin-top: -40px;
+        margin-right: 40px;
+    }
+
+    .menu {
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        transition: all 300ms;
+        gap: 18px;
+        z-index: 3;
+    }
+}
+
+@media (min-width:320px) {
+    :root {
+        --fs-l3: 14px !important;
+        --fs-l2: 16px !important;
+        --fs-l1: 20px !important;
+        --fs-m: 10px !important;
+        --fs-s1: 12px !important;
+        --fs-s2: 12px !important;
+        --fs-s3: 8px !important;
+    }
+
+    .gold-stars svg {
+        width: 60px;
+        margin-top: -8px;
+    }
+
+    .add-on-btns {
+        left: 28%;
+        top: 32%;
+    }
+
+    .size-container {
+        padding: 8px 12px;
+    }
+
+    .add-btn {
+        width: 60px;
+    }
+
+    .ml-21 {
+        margin-left: 12px;
+    }
+
+    .cart-btn {
+        font-size: 8px !important;
+        padding: 10px 10px;
+    }
+
+    .size-container {
+        width: 83px;
+    }
+
+    .size-container1{
+        width: 70px;
+    }
+
+    .ml-5 {
+        margin-left: 12px;
+    }
+
+    .mr-5 {
+        margin-right: 12px;
+    }
+
+    .tab-buttons.active::after {
+        top: 18px;
+    }
+
+    .page-no {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page-no-active {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-l3: 21px !important;
+        --fs-l2: 16px !important;
+        --fs-l1: 20px !important;
+        --fs-m: 14px !important;
+        --fs-s1: 12px !important;
+        --fs-s2: 12px !important;
+        --fs-s3: 8px !important;
+    }
+
+    .page-no {
+        width: 59px;
+        height: 59px;
+    }
+
+    .page-no-active {
+        width: 59px;
+        height: 59px;
+    }
+
+    .tab-buttons.active::after {
+        top: 30px;
+    }
+
+    .size-container1{
+        width: 100px;
+    }
+
+    .size-container {
+        width: 117px;
+    }
+
+    .cart-btn {
+        font-size: var(--fs-m);
+        padding: 10px 32px;
+    }
+
+    .ml-21 {
+        margin-left: 21px;
+    }
+
+    .add-btn {
+        width: 103px;
+    }
+
+    .gold-stars svg {
+        width: 103px;
+    }
+
+    .add-on-btns {
+        left: 25%;
+        top: 20%;
+    }
+
+    .pl-view-3 {
+        padding-left: 16px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-l3: 26px !important;
+        --fs-l2: 22px !important;
+        --fs-l1: 24px !important;
+        --fs-m: 17px !important;
+        --fs-s1: 12px !important;
+        --fs-s2: 16px !important;
+        --fs-s3: 10px !important;
+    }
+
+
+    .ml-5 {
+        margin-left: 48px;
+    }
+
+    .mr-5 {
+        margin-right: 48px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-l3: 30px !important;
+        --fs-l2: 25px !important;
+        --fs-l1: 24px !important;
+        --fs-m: 20px !important;
+        --fs-s1: 18px !important;
+        --fs-s2: 16px !important;
+        --fs-s3: 10px !important;
+    }
+}
