@@ -127,8 +127,8 @@
     }
 
     .cart-btn {
-        font-size: var(--fs-m);
-        padding: 10px 32px;
+        font-size: 14px !important;
+        padding: 10px 32px !important;
     }
 
     .ml-21 {
@@ -164,6 +164,11 @@
         --fs-s3: 10px !important;
     }
 
+    .cart-btn {
+        font-size: 17px !important;
+        padding: 10px 32px !important;
+    }
+
 
     .ml-5 {
         margin-left: 48px;
@@ -183,5 +188,10 @@
         --fs-s1: 18px !important;
         --fs-s2: 16px !important;
         --fs-s3: 10px !important;
+    }
+
+    .cart-btn {
+        font-size: 20px !important;
+        padding: 10px 32px !important;
     }
 }
